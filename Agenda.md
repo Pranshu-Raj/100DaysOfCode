@@ -5,13 +5,13 @@
 
 # Agenda
 
--Web Development(MERN)
-    -[ ] UX Design 
-    -[ ] 10 CSS Designs.
-    -[ ] 5 Static Web Pages.
-    -[ ] 100 JavaScript Algorithm.
-    -[ ] JavaScript Data Structure.
-    -[ ] 5 React Apps.
-    -[ ] Solving Questions on LeetCode and Hacker Rank (450+).
+- Web Development(MERN)
+    - [ ] UX Design 
+    - [ ] 10 CSS Designs.
+    - [ ] 5 Static Web Pages.
+    - [ ] 100 JavaScript Algorithm.
+    - [ ] JavaScript Data Structure.
+    - [ ] 5 React Apps.
+    - [ ] Solving Questions on LeetCode and Hacker Rank (450+).
 
 
