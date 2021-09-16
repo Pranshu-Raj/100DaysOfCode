@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto';
+    background: url(../img/pattern.jpg) center center;
+}
+
+/*Font Faces*/
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf') url('Cubano-Regular.otf') format('opentype') ;
+}
+
+#cover {
+    height: 100%;
+    background: url(..//img/trees.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.wall-sticker {
+    padding: 14rem 20rem 12rem 3rem;
+    background: rgba(44, 44, 44, 0.74);
+    font-size: 5rem;
+    font-family: 'Roboto';
+
+}
+
+.moto {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    margin-top: 245px;
+    margin-left: 350px;
+}
