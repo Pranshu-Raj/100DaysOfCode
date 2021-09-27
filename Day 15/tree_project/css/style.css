@@ -332,3 +332,19 @@ body {
 .section-testimonials {
     padding-top: 5rem;
 }
+
+.monica-img,
+.mario-img,
+.monice-img {
+    width: 125px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.monica-img:hover,
+.mario-img:hover,
+.monica-img:hover {
+    transition: 0.5s;
+    transform: scale(0.96);
+}
