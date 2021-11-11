@@ -1,0 +1,81 @@
+body {
+    margin: 0px 0px;
+}
+
+/* Horizontal Lists */
+
+#body-header {
+    height: 60vh;
+    opacity: 0.9;
+    background-image: url(img/code_1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    transition: color 0.5s, border 4s;
+}
+
+.navbar li a:hover{
+    color: red;
+    border: 1px solid blue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.name-social-container{
+    margin-top: 20vh;
+}
+
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li{
+    display: inline-block;
+    /* margin: 0px 8px; */
+    font-size: 20px;
+    font-weight: 00;
+    list-style: none;
+}
+
+.social-media {
+    font-size: 15px;
+}
+
+.social-icons li a i{
+    /* color: red; */
+    padding: 10px;
+    padding-left: -15px;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+}
