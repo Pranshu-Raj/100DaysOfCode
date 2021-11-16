@@ -198,6 +198,7 @@ p{
 
 #Contact {
     background-image: linear-gradient(to right , rgb(124, 124, 255) , rgb(192, 15, 192));
+    display: flex;
 }
 
 .forum {
@@ -206,10 +207,14 @@ p{
     left: 16px;
     height: 70%;
     width: 50%;
+    background-color: aliceblue;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .get-in-touch {
     display: inline-block;
     height: 70%;
     width: 50%;
+    background-color: aqua;
 }
