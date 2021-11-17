@@ -7,7 +7,7 @@ body {
 #body-header {
     height: 60vh;
     opacity: 0.9;
-    background-image: url(img/code_1.jfif);
+    background-image: url(img/coding-img.jfif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -198,23 +198,29 @@ p{
 
 #Contact {
     background-image: linear-gradient(to right , rgb(124, 124, 255) , rgb(192, 15, 192));
-    display: flex;
+    
 }
 
 .forum {
     position: relative;
-    top: 8px;
-    left: 16px;
+    /* top: 8px;
+    left: 16px; */
     height: 70%;
     width: 50%;
-    background-color: aliceblue;
-    align-items: flex-start;
+    /* background-color: aliceblue; */
     flex-direction: row;
+    margin: 30px;
 }
 
 .get-in-touch {
     display: inline-block;
     height: 70%;
     width: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.address{
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
