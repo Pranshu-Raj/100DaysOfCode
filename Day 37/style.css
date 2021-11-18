@@ -207,6 +207,7 @@ p{
     left: 16px; */
     height: 70%;
     width: 50%;
+    justify-content: center;
     /* background-color: aliceblue; */
     flex-direction: row;
     margin: 30px;
