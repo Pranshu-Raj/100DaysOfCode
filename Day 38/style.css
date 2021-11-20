@@ -1,0 +1,312 @@
+body {
+    margin: 0px 0px;
+}
+
+/* Horizontal Lists */
+
+#body-header {
+    height: 60vh;
+    opacity: 0.9;
+    background-image: url(img/coding-img.jfif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+.nav-menu{
+    transition: color 0.5s, border 4s;
+}
+
+.navbar li a:hover{
+    color: red;
+    border: 1px solid blue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.name-social-container{
+    margin-top: 20vh;
+}
+
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li{
+    display: inline-block;
+    /* margin: 0px 8px; */
+    font-size: 20px;
+    font-weight: 00;
+    list-style: none;
+}
+
+.social-media {
+    font-size: 15px;
+}
+
+.social-icons li a i{
+    /* color: red; */
+    padding: 10px;
+    padding-left: -15px;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+}
+
+section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: rgb(223, 223, 223);
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    /* margin: 10px auto; */
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    border: 20px;
+}
+
+.my-image img{
+    height: 100%;
+    width: 100%;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: white;
+}
+
+p{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-display{
+    width: 70%;
+    /* height: 100px; */
+    /* border: 2px solid black;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    /* margin-bottom: 20px; */
+    /* margin-top: 30px; */
+}
+
+/* skills Section */
+.mb75px{
+    margin-bottom: 35px;
+}
+
+.bold {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: blue;
+    letter-spacing: 0rem;
+    font-size: larger;
+}
+
+.skill-progress {
+    display: flex;
+    background-color: blue;
+    border: 1px black;
+    height: 30px;
+    width: 6cm;
+    border-radius: 10px;
+    margin: 30px;
+    /* padding: 30px; */
+}
+
+.skill-percentage {
+    background-color: gray;
+    border: 1px black;
+    height: 30px;
+    width: 4cm;
+    border-radius: 10px;
+}
+
+.percentage {
+    margin: 35px 0px 0px 15px ;
+    font-weight: 700;
+}
+
+#Contact {
+    
+    background-image: linear-gradient(to right , rgb(124, 124, 255) , rgb(192, 15, 192));
+    
+}
+
+.contact-text {
+    justify-content: space-around;
+    color: white;
+    /* background-color: white; */
+
+}
+
+.forum {
+    position: relative;
+    /* top: 8px;
+    left: 16px; */
+    height: 70%;
+    width: 50%;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    flex-direction: row;
+    /* margin: 30px; */
+}
+
+.get-in-touch {
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    color: white;
+    margin-left: 100px;
+    /* background-color: aqua; */
+}
+
+.address{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.address h3 {
+    margin-left: 10px;
+}
+
+.forum form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.forum .txt_feild{
+    position: relative;
+    border-bottom: 3px solid white;
+    margin: 30px 0;
+}
+
+.txt_feild input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_feild label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.txt_feild input:focus ~ label,
+.txt_feild input:valid ~ label {
+    top: -5px;
+    color: white;
+    font-size: large;
+}
+
+.pass {
+    margin: -5px 0 20px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="Submit"] {
+    width: 60%;
+    height: 40px;
+    margin-left: 110px;
+    border: 2px solid white;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700px;
+    font-size: large;
+    color: white;
+}
